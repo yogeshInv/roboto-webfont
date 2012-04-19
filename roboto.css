@@ -1,97 +1,72 @@
 @font-face {
-  font-family: 'Roboto Thin';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=DPu3R_w4R5pjnst7X4FGRhsxEYwM7FgeyaSgU71cLG0') format('woff');
-}
-@font-face {
-  font-family: 'Roboto Thin';
+  font-family: 'Roboto';
   font-style: italic;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=12mE4jfMSBTmg-81EiS-YXwUvq1pQaUIDqPgpae5ItU') format('woff');
+  font-weight: 100;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url('http://themes.googleusercontent.com/font?kit=12mE4jfMSBTmg-81EiS-YXwUvq1pQaUIDqPgpae5ItU') format('woff');
 }
 @font-face {
-  font-family: 'Roboto Light';
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=33_del8_OqHYp5o7lJ03zEbnXQ06sCSpaytluCdpFnY') format('woff');
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url('http://themes.googleusercontent.com/font?kit=kmi0UDLgQkdQOWTK0LzdZ0bnXQ06sCSpaytluCdpFnY') format('woff');
 }
 @font-face {
-  font-family: 'Roboto Light';
+  font-family: 'Roboto';
   font-style: italic;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=7m8l7TlFO-S3VkhHuR0atxxTiQ0Fp6CNM96zoT_eAsA') format('woff');
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url('http://themes.googleusercontent.com/font?kit=7m8l7TlFO-S3VkhHuR0atxxTiQ0Fp6CNM96zoT_eAsA') format('woff');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=1bFto_RrW-wgLetD2HhJU_esZW2xOQ-xsNqO47m55DA') format('woff');
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('http://themes.googleusercontent.com/font?kit=1bFto_RrW-wgLetD2HhJU_esZW2xOQ-xsNqO47m55DA') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('http://themes.googleusercontent.com/font?kit=KWsSs963f8Tf42hZ9v03ukbnXQ06sCSpaytluCdpFnY') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('http://themes.googleusercontent.com/font?kit=0aNn9O0RXt3pucxdKtWoA0bnXQ06sCSpaytluCdpFnY') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url('http://themes.googleusercontent.com/font?kit=bmC0pGMXrhphrZJmniIZpRxTiQ0Fp6CNM96zoT_eAsA') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url('http://themes.googleusercontent.com/font?kit=33_del8_OqHYp5o7lJ03zEbnXQ06sCSpaytluCdpFnY') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('http://themes.googleusercontent.com/font?kit=t6Nd4cfPRhZP44Q5QAjcCxxTiQ0Fp6CNM96zoT_eAsA') format('woff');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=6KFrDeASu9TLyM8WOgo0YRsxEYwM7FgeyaSgU71cLG0') format('woff');
+  src: local('Roboto Italic'), local('Roboto-Italic'), url('http://themes.googleusercontent.com/font?kit=6KFrDeASu9TLyM8WOgo0YRsxEYwM7FgeyaSgU71cLG0') format('woff');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  src: url('https://themes.googleusercontent.com/font?kit=0aNn9O0RXt3pucxdKtWoA0bnXQ06sCSpaytluCdpFnY') format('woff');
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url('http://themes.googleusercontent.com/font?kit=DPu3R_w4R5pjnst7X4FGRhsxEYwM7FgeyaSgU71cLG0') format('woff');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
-  font-weight: 700;
-  src: url('https://themes.googleusercontent.com/font?kit=t6Nd4cfPRhZP44Q5QAjcCxxTiQ0Fp6CNM96zoT_eAsA') format('woff');
-}
-@font-face {
-  font-family: 'Roboto Medium';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=KWsSs963f8Tf42hZ9v03ukbnXQ06sCSpaytluCdpFnY') format('woff');
-}
-@font-face {
-  font-family: 'Roboto Medium';
-  font-style: italic;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=OLffGBTaF0XFOW1gnuHF0RxTiQ0Fp6CNM96zoT_eAsA') format('woff');
-}
-
-@font-face {
-  font-family: 'Roboto Black';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=kmi0UDLgQkdQOWTK0LzdZ0bnXQ06sCSpaytluCdpFnY') format('woff');
-}
-@font-face {
-  font-family: 'Roboto Black';
-  font-style: italic;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=bmC0pGMXrhphrZJmniIZpRxTiQ0Fp6CNM96zoT_eAsA') format('woff');
-}
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=Zd2E9abXLFGSr9G3YK2MsH9kWI6M6uV4a8Jg4m1qPfM') format('woff');
-}
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: italic;
-  font-weight: 400;
-  src: url('https://themes.googleusercontent.com/font?kit=BP5K8ZAJv9qEbmuFp8RpJRjx1XWZMjl4hlPeW5N4h0c') format('woff');
-}
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  src: url('https://themes.googleusercontent.com/font?kit=b9QBgL0iMZfDSpmcXcE8nHYa637dmJfQ_5oeIiy-2UI') format('woff');
-}
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: italic;
-  font-weight: 700;
-  src: url('https://themes.googleusercontent.com/font?kit=mg0cGfGRUERshzBlvqxeAFCXvlmp9Xr2RY7S4lXLUng') format('woff');
+  font-weight: 500;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('http://themes.googleusercontent.com/font?kit=OLffGBTaF0XFOW1gnuHF0RxTiQ0Fp6CNM96zoT_eAsA') format('woff');
 }
